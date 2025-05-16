@@ -11,7 +11,7 @@ const SafetyTrust = () => {
           {/* Left section - Half width on tablet */}
           <div className="w-full md:w-[45%] lg:w-[38%]">
             <div className="flex items-center mb-4">
-              <div className="h-[0.313rem] w-[2rem] bg-black mr-2 rounded-lg"></div>
+            <span className="w-[2rem] h-[0.313rem] bg-black rounded-xl mt-2 px-4 mr-1"></span>
               <span className="text-[1rem] mt-8 OpenSans">
                 Safety + Trust Assurance
               </span>

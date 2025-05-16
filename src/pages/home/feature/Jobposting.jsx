@@ -7,12 +7,12 @@ const Jobposting = () => {
        
         <div     className="md:w-1/2 lg:ml-12">
         <div className="flex items-center mb-4">
-              <div className="h-[0.313rem] w-[2rem] mb-3 rounded-lg  bg-black mr-2"></div>
-              <span className="text-sm text-normal  OpenSans ">
-             job posting access
+              <span className="w-[2rem] h-[0.313rem] bg-black rounded-xl mb-4 px-4 mr-1"></span>
+              <span className="text-[1rem] text-normal  OpenSans ">
+             Job Posting Access
               </span>
             </div>
-          <h2 className="text-2xl md:text-4xl Montserrat font-semibold text-gray-800 mb-6 max-w-sm">
+          <h2 className="text-2xl md:text-4xl Montserrat font-semibold text-[#0B1411] mb-6 max-w-sm">
             Who Can Post a Job?
           </h2>
           <p className="text-[#0B1411B2] mb-6 max-w-lg OpenSans">

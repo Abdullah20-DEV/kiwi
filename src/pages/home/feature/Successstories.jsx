@@ -52,10 +52,10 @@ const SuccessStories = () => {
 
         <div className="lg:w-1/2 mx-4 sm:mx-8 lg:ml-16">
           <div className="flex items-center mb-4">
-            <div className="h-[0.313rem] w-[2rem]  mb-3 rounded-lg bg-black mr-2"></div>
+        <span className="w-[2rem] h-[0.313rem] bg-black rounded-xl mb-4 px-4 mr-2"></span>
             <span className="text-xs sm:text-sm OpenSans">User Queries</span>
           </div>
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold Montserrat text-gray-800 mb-4 sm:mb-6">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold Montserrat text-[#0B1411] mb-4 sm:mb-6">
             Success Stories
           </h1>
           

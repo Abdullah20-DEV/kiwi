@@ -8,15 +8,15 @@ const HowItWorksSection = () => {
         <div className="flex">
           <div className="lg:ml-16">
             <div className="flex items-center gap-2 mb-2">
-              <div className="w-[2rem] h-[0.313rem] bg-[#0B1411] rounded-lg"></div>
-              <p className="text-sm font-normal OpenSans">Work Process</p>
+              <span className="w-[2rem] h-[0.313rem] bg-black rounded-xl mb-4 px-4 mr-1"></span>
+              <p className="text-[1rem] font-normal text-[#0B1411] OpenSans ">Work Process</p>
             </div>
-            <h2 className="text-3xl sm:text-4xl font-semibold Montserrat py-4">How It Works?</h2>
+            <h2 className="text-3xl  font-semibold md:text-[2.75rem] text-[#0B1411] Montserrat py-2">How It Works?</h2>
           </div>
         </div>
 
         <div className="flex items-center">
-          <p className="text-sm sm:text-md text-[#0B1411B2] font-normal OpenSans lg:ml-[-2rem]">
+          <p className="text-[1rem] text-[#0B1411B2] font-normal OpenSans lg:ml-[-2rem]">
             Getting started is easy. Once your profile is complete, explore local jobs that match your timeline, and apply
             with a click. Whether you're looking to earn extra cash or gain real-world experience, SwiRob helps you connect with safe, trusted opportunities near you.
           </p>
