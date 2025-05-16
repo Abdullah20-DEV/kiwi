@@ -8,10 +8,10 @@ const HowItWorksSection = () => {
         <div className="flex">
           <div className="lg:ml-16">
             <div className="flex items-center gap-2 mb-2">
-              <div className="w-6 h-[0.313rem] bg-gray-800 rounded-lg"></div>
+              <div className="w-[2rem] h-[0.313rem] bg-[#0B1411] rounded-lg"></div>
               <p className="text-sm font-normal OpenSans">Work Process</p>
             </div>
-            <h2 className="text-3xl sm:text-4xl font-semibold Montserrat">How It Works?</h2>
+            <h2 className="text-3xl sm:text-4xl font-semibold Montserrat py-4">How It Works?</h2>
           </div>
         </div>
 

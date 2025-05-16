@@ -11,13 +11,13 @@ const SafetyTrust = () => {
           {/* Left section - Half width on tablet */}
           <div className="w-full md:w-[45%] lg:w-[38%]">
             <div className="flex items-center mb-4">
-              <div className="h-[0.313rem] w-9 bg-black mr-2 rounded-lg"></div>
-              <span className="text-sm mt-8 OpenSans">
+              <div className="h-[0.313rem] w-[2rem] bg-black mr-2 rounded-lg"></div>
+              <span className="text-[1rem] mt-8 OpenSans">
                 Safety + Trust Assurance
               </span>
             </div>
             
-            <h2 className="text-2xl sm:text-3xl md:text-[2.2rem] lg:text-[2.75rem] w-full md:w-full lg:w-[28rem] Montserrat font-semibold leading-tight">
+            <h2 className="text-[2.75rem] md:text-[2.2rem] lg:text-[2.75rem] w-full md:w-full lg:w-[28rem] Montserrat font-semibold leading-tight">
               Your Safety Is Our<br className="hidden sm:inline" /> Priority
             </h2>
             
@@ -34,19 +34,19 @@ const SafetyTrust = () => {
                   alt="Verification" 
                   className="w-12 h-12 lg:w-[3.5rem] lg:h-[3.5rem] mb-4" 
                 />
-                <h3 className="text-lg font-semibold Montserrat text-gray-900">
+                <h3 className="text-[1.125rem] font-semibold Montserrat text-[#0B1411]">
                   Stripe ID Verification
                 </h3>
                 <p className="text-[#0B1411B2] OpenSans text-sm lg:text-[1rem] mt-3">
                   All users go through secure ID checks <br className="hidden lg:inline" />
-                  <span className='inline-block mt-1 lg:mt-3'>for extra peace of mind.</span>
+                  <span className='inline-block mt-1 lg:mt-1'>for extra peace of mind.</span>
                 </p>
               </div>
             </div>
           </div>
 
           {/* Image section - Only visible on tablet - positioned next to heading */}
-          <div className="hidden md:block lg:hidden md:w-[55%] md:flex md:justify-center md:pl-4">
+          <div className="hidden md:block lg:hidden md:w-[55%] md:justify-center md:pl-4">
             <div className="relative w-full max-w-[22rem] h-[28rem] rounded-[20px] overflow-hidden">
               <img 
                 src={safetytrustimage} 
@@ -54,7 +54,7 @@ const SafetyTrust = () => {
                 className="w-full h-full object-cover" 
               />
               <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-[80%] md:w-[15rem] bg-black bg-opacity-90 py-2 md:py-3 px-4 md:px-6 rounded-3xl">
-                <p className="text-[#FFEB9A] text-center font-semibold OpenSans text-sm md:text-[1rem]">
+                <p className="text-[#FFEB9A] text-center font-semibold OpenSans text-sm md:text-[1rem] md:mb-4">
                   Read our safety Promise
                 </p>
               </div>
@@ -130,7 +130,7 @@ const SafetyTrust = () => {
           </div>
 
           {/* Desktop layout elements - hidden on tablet */}
-          <div className="hidden lg:block lg:w-[55%] lg:flex lg:justify-center lg:mt-0 lg:ml-[-4rem]">
+          <div className="hidden  lg:w-[55%] lg:flex lg:justify-center lg:mt-0 lg:ml-[-4rem]">
             <div className="relative w-full max-w-[26rem] lg:h-[33rem] rounded-[20px] overflow-hidden">
               <img 
                 src={safetytrustimage} 
@@ -146,7 +146,7 @@ const SafetyTrust = () => {
           </div>
 
           {/* Right section - Features section - hidden on tablet */}
-          <div className="hidden lg:block lg:w-[38%] lg:flex-col lg:mt-0">
+          <div className="hidden lg:block lg:w-[38%] lg:flex-col lg:mt-0 ">
             
             {/* First feature box */}
             <div className="lg:px-6 lg:py-4 rounded-lg lg:max-w-[19rem] lg:-mx-4 lg:mb-0">

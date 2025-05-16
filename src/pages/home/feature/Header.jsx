@@ -59,7 +59,7 @@ const Header = () => {
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mt-12">
           <p className="text-sm font-normal lg:mr-4 flex items-center justify-center gap-1 mb-6 OpenSans">
-            <span className="w-7 h-[0.3rem] bg-black rounded-xl mb-4 px-4 mr-1"></span>
+            <span className="w-[2rem] h-[0.313rem] bg-black rounded-xl mb-4 px-4 mr-1"></span>
             <span className="text-[1rem]">Best Jobs Place</span>
           </p>
           <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 Montserrat">

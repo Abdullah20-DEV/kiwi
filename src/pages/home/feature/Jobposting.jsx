@@ -7,7 +7,7 @@ const Jobposting = () => {
        
         <div     className="md:w-1/2 lg:ml-12">
         <div className="flex items-center mb-4">
-              <div className="h-[0.313rem] w-9 mb-3 rounded-lg  bg-black mr-2"></div>
+              <div className="h-[0.313rem] w-[2rem] mb-3 rounded-lg  bg-black mr-2"></div>
               <span className="text-sm text-normal  OpenSans ">
              job posting access
               </span>

@@ -9,7 +9,7 @@ const HowItWorks = () => {
           <div className="flex pl-4">
             <div>
               <div className="flex items-center gap-2 mb-2">
-                <div className="w-9 h-[0.313rem] bg-black rounded-lg"></div>
+                <div className="w-[2rem] h-[0.313rem] bg-black rounded-lg"></div>
                 <p className="text-sm font-normal OpenSans">Work Process</p>
               </div>
               <h2 className="text-4xl font-semibold Montserrat">How It Works?</h2>

@@ -13,7 +13,7 @@ const WhyJoinSection = () => {
      
           <div className="mb-6">
             <div className="flex items-center mb-4">
-              <div className="h-[0.313rem] w-9 mb-3 bg-white mr-2 rounded-lg"></div>
+              <div className="h-[0.313rem] w-[2rem] mb-3 bg-white mr-2 rounded-lg"></div>
               <span className="text-sm uppercase text-white OpenSans font-normal">
                 Built For Safety, Simplicity, And Real Results
               </span>

@@ -38,7 +38,7 @@ const Userqueries = () => {
         
         <div className="md:w-1/2 order-1 md:order-none">
           <div className="flex items-center mb-4">
-            <div className="h-[0.313rem] w-9 mb-3 rounded-lg bg-black mr-2"></div>
+            <div className="h-[0.313rem] w-[2rem] mb-3 rounded-lg bg-black mr-2"></div>
             <span className="text-sm OpenSans">User Queries</span>
           </div>
           <h2 className="text-2xl md:text-4xl Montserrat font-semibold text-gray-800 mb-6">
