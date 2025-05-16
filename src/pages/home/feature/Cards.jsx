@@ -17,7 +17,7 @@ const JobCard = ({ title, description }) => {
   };
 
   return (
-    <div className="relative z-30 bg-white  rounded-lg  transition-all duration-300 flex flex-col items-center justify-center h-[16rem] w-[16rem] px-7  mx-2">
+    <div className="relative z-30 bg-white  rounded-lg  transition-all duration-300 flex flex-col items-center justify-center h-[17rem] w-[16rem] px-7  mx-2">
       <div className="mb-4">{getIconComponent(title)}</div>
       <h3 className="text-xl font-bold Montserrat mb-2 text-center">{title}</h3>
       <p className="text-gray-700 OpenSans text-sm text-center font-normal">{description}</p>

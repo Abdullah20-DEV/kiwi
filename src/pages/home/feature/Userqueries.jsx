@@ -4,18 +4,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { faqData } from "../../../utils/data";
 
 const Userqueries = () => {
-  const [expandedItems, setExpandedItems] = useState({
-    parental: true,
-    payment: false,
-    trust: false,
-    jobs: false,
-  });
+  const [expandedItem, setExpandedItem] = useState("parental"); // Only one item key or null
 
   const toggleItem = (item) => {
-    setExpandedItems((prev) => ({
-      ...prev,
-      [item]: !prev[item],
-    }));
+    setExpandedItem((prev) => (prev === item ? null : item)); // Toggle the same item or open a new one
   };
 
   const descriptionVariants = {
@@ -26,16 +18,14 @@ const Userqueries = () => {
   return (
     <div className="bg-[#FFEB9A] max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="flex flex-col md:flex-row items-start gap-8">
-        
         <div className="md:w-1/2 flex justify-center flex-shrink-0 order-2 md:order-none">
           <img
             src={UserQueryimage}
             alt="FAQ illustration"
-            className="w-[36rem] h-[33rem] object-contain" 
+            className="w-[36rem] h-[33rem] object-contain"
           />
         </div>
 
-        
         <div className="md:w-1/2 order-1 md:order-none">
           <div className="flex items-center mb-4">
             <span className="w-[2rem] h-[0.313rem] bg-black rounded-xl mb-4 px-4 mr-2"></span>
@@ -59,14 +49,14 @@ const Userqueries = () => {
                   </h4>
                   <span
                     className={`text-gray-500 ${
-                      expandedItems[key] ? "text-4xl" : "text-2xl"
+                      expandedItem === key ? "text-4xl" : "text-2xl"
                     }`}
                   >
-                    {expandedItems[key] ? "-" : "+"}
+                    {expandedItem === key ? "-" : "+"}
                   </span>
                 </div>
                 <AnimatePresence>
-                  {expandedItems[key] && (
+                  {expandedItem === key && (
                     <motion.div
                       variants={descriptionVariants}
                       initial="hidden"

@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#FFEB9A] p-4 flex justify-between items-center relative z-50">
+    <nav className="bg-[#FFEB9A] p  p-4 flex justify-between items-center relative z-50">
       {/* Logo */}
       <div className="flex items-center ml-8">
         <img src={logo} alt="KiwiRoo Jobs Logo" />
@@ -73,24 +73,25 @@ const Navbar = () => {
       >
         <div className="flex flex-col space-y-2 p-4">
           {navLinks.map((link) => (
-            <a
-              key={link.id}
-              href={link.path}
-              className={`text-black hover:text-gray-700 text-base Montserrat ${
-                link.name === 'Home' ? 'font-bold' : 'font-medium'
-              }`}
-            >
-              {link.name}
-            </a>
+            <div key={link.id} className="flex flex-col">
+              <a
+                href={link.path}
+                className={`text-black hover:text-gray-700 text-base Montserrat ${
+                  link.name === 'Home' ? 'font-bold' : 'font-medium'
+                }`}
+              >
+                {link.name}
+              </a>
+              {link.name === navLinks[navLinks.length - 1].name && (
+                <a
+                  href="/signin"
+                  className="text-black text-center hover:text-white hover:bg-black border border-black px-6 py-2 rounded-full OpenSans mt-2 md:w-[7rem]"
+                >
+                  Sign In
+                </a>
+              )}
+            </div>
           ))}
-          <div className="flex justify-end mt-4">
-            <a
-              href="/signin"
-              className="text-black text-center hover:text-white hover:bg-black border border-black px-6 py-2 rounded-full OpenSans"
-            >
-              Sign In
-            </a>
-          </div>
         </div>
       </motion.div>
     </nav>
