@@ -46,7 +46,7 @@ const SafetyTrust = () => {
           </div>
 
           {/* Image section - Only visible on tablet - positioned next to heading */}
-          <div className="hidden md:block lg:hidden md:w-[55%] md:justify-center md:pl-4">
+          <div className=" md:block lg:hidden md:w-[55%] md:justify-center md:pl-4">
             <div className="relative w-full max-w-[22rem] h-[28rem] rounded-[20px] overflow-hidden">
               <img 
                 src={safetytrustimage} 
