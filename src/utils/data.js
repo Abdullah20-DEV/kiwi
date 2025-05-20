@@ -48,3 +48,11 @@ export const jobsData = [
       "Teens can apply for various local jobs like babysitting, pet care, tutoring, yard work, and other age-appropriate tasks approved by their parents.",
   },
 ];
+
+
+export const formFields = [
+  { id: 'firstName', label: 'First Name', type: 'text', placeholder: 'Enter your first name' },
+  { id: 'lastName', label: 'Last Name', type: 'text', placeholder: 'Enter your last name' },
+  { id: 'email', label: 'Email', type: 'email', placeholder: 'Enter your email' },
+  { id: 'password', label: 'Password', type: 'password', placeholder: 'Enter your password' },
+];
